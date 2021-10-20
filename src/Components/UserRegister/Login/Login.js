@@ -82,21 +82,13 @@ const Login = () => {
 
             <p className="text-danger">{error}</p>
 
-            <button
-              type="submit"
-              class="btn btn-outline-success"
-              onClick={passwordSignIn}
-            >
+            <div class="btn btn-outline-success" onClick={passwordSignIn}>
               LogIn
-            </button>
+            </div>
 
-            <button
-              type="submit"
-              class="btn btn-outline-success mx-3"
-              onClick={googleSignIn}
-            >
+            <div class="btn btn-outline-success mx-3" onClick={googleSignIn}>
               LogIn With Google
-            </button>
+            </div>
           </form>
         </div>
       </div>

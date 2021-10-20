@@ -1,12 +1,17 @@
 import React, { useEffect } from "react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import useServices from "../../useServices";
 import ShowDoctors from "../ShowDoctors/ShowDoctors";
 import ShowServices from "../ShowServices/ShowServices";
 
 const Home = () => {
-  const services = useServices();
+  const [services, setServices] = useState([]);
+
+  useEffect(() => {
+    fetch("/services.JSON")
+      .then((res) => res.json())
+      .then((data) => setServices(data));
+  }, []);
   // take only 6 from the courses
   const showServices = services.slice(0, 6);
 

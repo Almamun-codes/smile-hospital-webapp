@@ -2,7 +2,6 @@ import React from "react";
 import { useParams } from "react-router";
 import { Link } from "react-router-dom";
 import { useEffect, useState } from "react/cjs/react.development";
-import useServices from "../../useServices";
 
 const Service = () => {
   const { serviceId } = useParams();

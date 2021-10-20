@@ -1,11 +1,9 @@
 import React from "react";
-import useServices from "../../useServices";
 import ShowServices from "../ShowServices/ShowServices";
+import useServices from "./../../useServices";
 
 const Tests = () => {
   const services = useServices();
-  // take only 6 from the courses
-
   return (
     <div>
       <div className="container">

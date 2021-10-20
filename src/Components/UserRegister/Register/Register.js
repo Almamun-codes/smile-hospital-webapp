@@ -18,6 +18,7 @@ const Register = () => {
     setUser,
     setError,
     auth,
+    setIsLoading,
   } = useAuth();
 
   const location = useLocation();
@@ -31,7 +32,8 @@ const Register = () => {
       })
       .catch((error) => {
         setError(error.message);
-      });
+      })
+      .finally(setIsLoading(false));
   };
 
   const passwordSignIn = () => {
@@ -54,7 +56,8 @@ const Register = () => {
         .catch((error) => {
           console.log(error.message);
           setError(error.message);
-        });
+        })
+        .finally(setIsLoading(false));
     } else {
       return;
     }

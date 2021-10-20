@@ -13,10 +13,8 @@ import Tests from "./Components/Tests/Tests";
 import Login from "./Components/UserRegister/Login/Login";
 import Register from "./Components/UserRegister/Register/Register";
 import Authprovider from "./Context/Authprovider";
-import useServices from "./useServices";
 
 function App() {
-  const services = useServices();
   return (
     <div className="bg-color">
       <Authprovider>

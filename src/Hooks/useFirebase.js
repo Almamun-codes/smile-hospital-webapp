@@ -16,6 +16,7 @@ initializeAuthentication();
 const useFirebase = () => {
   const [user, setUser] = useState({});
   const [error, setError] = useState("");
+  const [isLoading, setIsLoading] = useState(true);
 
   //implement email password autentication
   const [email, setEmail] = useState("");
@@ -41,6 +42,7 @@ const useFirebase = () => {
   const googleProvider = new GoogleAuthProvider();
 
   const signInWithGoogle = () => {
+    setIsLoading(true);
     return signInWithPopup(auth, googleProvider);
   };
 
@@ -71,21 +73,28 @@ const useFirebase = () => {
 
   //sign in with password
   const signInWithPassWord = () => {
+    setIsLoading(true);
     return signInWithEmailAndPassword(auth, email, password);
   };
 
   const logOut = () => {
-    signOut(auth).then(() => {
-      setUser({});
-      // Sign-out successful.
-    });
+    setIsLoading(true);
+    signOut(auth)
+      .then(() => {
+        setUser({});
+        // Sign-out successful.
+      })
+      .finally(setIsLoading(false));
   };
 
   useEffect(() => {
     onAuthStateChanged(auth, (user) => {
       if (user) {
         setUser(user);
+      } else {
+        setUser({});
       }
+      setIsLoading(false);
     });
   }, []);
   return {
@@ -104,6 +113,8 @@ const useFirebase = () => {
     auth,
     setUser,
     setError,
+    isLoading,
+    setIsLoading,
   };
 };
 
