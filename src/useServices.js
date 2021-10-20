@@ -1,11 +1,10 @@
-import { useState } from "react";
-import { useEffect } from "react/cjs/react.development";
+import { useState, useEffect } from "react";
 
 const useServices = () => {
   const [services, setServices] = useState([]);
 
   useEffect(() => {
-    fetch("/services.JSON")
+    fetch("/services.json")
       .then((res) => res.json())
       .then((data) => setServices(data));
   }, []);

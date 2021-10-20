@@ -1,14 +1,13 @@
 import React from "react";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
-import { useEffect } from "react/cjs/react.development";
 import ShowDoctors from "../ShowDoctors/ShowDoctors";
 
 const Doctors = () => {
   const [doctors, setDoctors] = useState([]);
 
   useEffect(() => {
-    fetch("./doctors.JSON")
+    fetch("./doctors.json")
       .then((res) => res.json())
       .then((data) => setDoctors(data));
   }, []);

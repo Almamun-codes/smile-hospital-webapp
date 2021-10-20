@@ -16,7 +16,7 @@ import Authprovider from "./Context/Authprovider";
 
 function App() {
   return (
-    <div className="bg-color">
+    <>
       <Authprovider>
         <BrowserRouter>
           <Header></Header>
@@ -64,7 +64,7 @@ function App() {
           <Footer></Footer>
         </BrowserRouter>
       </Authprovider>
-    </div>
+    </>
   );
 }
 
