@@ -1,0 +1,42 @@
+[
+    {"id":1,
+        "name":"Complete Blood Count",
+        "img":"https://ichef.bbci.co.uk/news/976/cpsprodpb/1362E/production/_120260497_whatsubject.jpg",
+        "fee":300,
+        "description":"This test, also known as a CBC, is the most common blood test performed. It measures the types and numbers of cells in the blood, including red and white blood cells and platelets."},
+
+    {"id":2,
+        "name":"Comprehensive Metabolic Panel",
+        "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOv8zoWaGegSaYR1wFZgozkIJhAQf2qg4AOs02oNmJCRIugmw&s",
+        "fee":700,
+        "description":"This test combines the Basic Metabolic Panel with six more tests for a more comprehensive evaluation of metabolic functions, with a focus on organ systems."},
+
+    {"id":3,
+        "name":"Thyroid Stimulating Hormone",
+        "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuftcMLUHjGERfMsWi9gWT00_3gIL9Qu3eScV8IuUwDOOi65Y&s",
+        "fee":1000,
+        "description":"This test screens and monitors the function of the thyroid."},
+
+    {"id":4,
+        "name":"Urinalysis",
+        "img":"https://images.medicinenet.com/images/urinalysis-2.jpg",
+        "fee":500,
+        "description":"Often the first lab test performed, this is a general screening test used to check for early signs of disease. It may also be used to monitor diabetes or kidney disease."},
+
+    {"id":5,
+        "name":"Basic Metabolic Panel",
+        "img":"https://www.verywellhealth.com/thmb/T1TXlMdLs3fSzLvy9frUXJ9XAwE=/3645x2734/filters:fill(87E3EF,1)/482186651-bloodtest-RafeSwan-56a514f53df78cf7728633bd.jpg","fee":400,
+        "description":"This test measures glucose, sodium, potassium, calcium, chloride, carbon dioxide, blood urea nitrogen and creatinine which can help determine blood sugar level, electrolyte and fluid balance as well as kidney function."},
+
+    {"id":6,
+        "name":"Hemoglobin A1C",
+        "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwvabZv2jArec2tVi34LZmUnJJRu1-0nPyym-bpkvQ61NA7xE&s",
+        "fee":500,
+        "description":"This test is used to diagnose and monitor diabetes."},
+
+    {"id":7,
+        "name":"Prothrombin Time",
+        "img":"https://image.shutterstock.com/image-photo/blood-sample-prothrombin-time-pt-260nw-1836856039.jpg",
+        "fee":700,
+        "description":"Also known as PT and Pro Time, this test measures how long it takes blood to clot."}
+]

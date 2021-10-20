@@ -1,0 +1,23 @@
+[
+    {"id":1,"name":"Dr. Rezaul Karim ","img":"https://img.freepik.com/free-photo/portrait-smiling-handsome-male-doctor-man_171337-5055.jpg?size=626&ext=jpg","fee":500,"speciality":"General Surgeon","rating":5},
+
+    {"id":2,"name":"Dr. A Mahbuba","img":"https://images.theconversation.com/files/304957/original/file-20191203-66986-im7o5.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop","fee":700,"speciality":"Allergists/Immunologists","rating":4},
+
+    {"id":3,"name":"Dr. A Rahim","img":"https://i2-prod.mirror.co.uk/incoming/article4843769.ece/ALTERNATES/s615/Doctor.jpg","fee":1000,"speciality":"Cardiologists","rating":5},
+
+    {"id":4,"name":"Dr. Siddhart M","img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkYacmacrxV7o9awINhOOCtaoYbFz_-SThvhLR0VpCuJ9upmxR&s","fee":500,"speciality":"Colon and Rectal Surgeons","rating":4},
+
+    {"id":5,"name":"Dr. Sohail Rahman","img":"https://lh3.googleusercontent.com/proxy/n9DBflS7xeYbhmpAxSTYtA8pyReHvviW3vG_tjt9rkX97Z_p6nbhuYeUfaD4xEYe0g8mB6JMRsZXskIqqtQ2Goih7Z3fY3Q892bPUlrcd4UzfT4yfbwkFjn_AA","fee":400,"speciality":"Dermatologists","rating":5},
+
+    {"id":6,"name":"Dr. Nayim Uddin","img":"https://lh3.googleusercontent.com/proxy/3-GNtYTpxYLO_SHMtnhHWMwKcJJPNxKudwsHfebCIyoLOSbUlzUxlAVkNVRqBNOqc_PgiHfdoEr2P_b8tuHeHJJzWQ1BU6E","fee":500,"speciality":"Endocrinologists","rating":4},
+
+    {"id":7,"name":"Dr. Husne Ara Rifa","img":"https://www.independent.ie/irish-news/education/671f1/40328133.ece/AUTOCROP/w620/A%20young%20caring%20doctor","fee":700,"speciality":"Hematologists","rating":5},
+
+    {"id":8,"name":"Dr. Mehtaj K.","img":"https://cerebralpalsynewstoday.com/wp-content/uploads/2017/06/shutterstock_52856165-921x480@2x.jpg","fee":1000,"speciality":"Neurologists","rating":4},
+
+    {"id":9,"name":"Dr. Najrul Islam","img":"https://st4.depositphotos.com/12985790/21800/i/600/depositphotos_218007348-stock-photo-happy-male-doctor-stethoscope-neck.jpg","fee":1000,"speciality":"Plastic Surgeons","rating":5},
+
+    {"id":10,"name":"Dr. Yousuf J","img":"https://st2.depositphotos.com/1054848/7169/i/950/depositphotos_71691653-stock-photo-smiling-doctor-on-white-background.jpg","fee":600,"speciality":"Psychiatrists","rating":5},
+
+    {"id":11,"name":"Dr. Rekha Sharma","img":"https://st4.depositphotos.com/10614052/i/600/depositphotos_253542382-stock-photo-female-doctor-on-white-background.jpg","fee":300,"speciality":"Urologists","rating":5}
+]
